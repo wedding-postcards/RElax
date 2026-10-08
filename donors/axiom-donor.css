@@ -1,0 +1,97 @@
+/* Axiom Button rule subset from axiomops_framer_website.html, line 138.
+   Integration corrections and localization are recorded in PROVENANCE.md. */
+@font-face { font-family: "Geist Pixel"; src: url("./geist-pixel.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap }
+@font-face { font-family: "Geist Mono"; src: url("./geist-mono-500.woff2") format("woff2"); font-style: normal; font-weight: 500; font-display: swap }
+p.framer-text,div.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,li.framer-text,ol.framer-text,ul.framer-text,mark.framer-text,span.framer-text:not([data-text-fill]){font-family:var(--framer-font-family-preview,var(--framer-blockquote-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif)));font-style:var(--framer-font-style-preview,var(--framer-blockquote-font-style,var(--framer-font-style,normal)));font-weight:var(--framer-font-weight-preview,var(--framer-blockquote-font-weight,var(--framer-font-weight,400)));color:var(--framer-blockquote-text-color,var(--framer-text-color,#000));font-size:calc(var(--framer-blockquote-font-size,var(--framer-font-size,16px))*var(--framer-font-size-scale,1));letter-spacing:var(--framer-blockquote-letter-spacing,var(--framer-letter-spacing,0));text-transform:var(--framer-blockquote-text-transform,var(--framer-text-transform,none));-webkit-text-decoration-line:var(--framer-blockquote-text-decoration,var(--framer-text-decoration,initial));text-decoration-line:var(--framer-blockquote-text-decoration,var(--framer-text-decoration,initial));-webkit-text-decoration-style:var(--framer-blockquote-text-decoration-style,var(--framer-text-decoration-style,initial));text-decoration-style:var(--framer-blockquote-text-decoration-style,var(--framer-text-decoration-style,initial));-webkit-text-decoration-color:var(--framer-blockquote-text-decoration-color,var(--framer-text-decoration-color,initial));text-decoration-color:var(--framer-blockquote-text-decoration-color,var(--framer-text-decoration-color,initial));text-decoration-thickness:var(--framer-blockquote-text-decoration-thickness,var(--framer-text-decoration-thickness,initial));text-decoration-skip-ink:var(--framer-blockquote-text-decoration-skip-ink,var(--framer-text-decoration-skip-ink,initial));text-underline-offset:var(--framer-blockquote-text-decoration-offset,var(--framer-text-decoration-offset,initial));line-height:var(--framer-blockquote-line-height,var(--framer-line-height,1.2em));text-align:var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start));-webkit-text-stroke-width:var(--framer-text-stroke-width,initial);-webkit-text-stroke-color:var(--framer-text-stroke-color,initial);-moz-font-feature-settings:var(--framer-font-open-type-features,initial);-webkit-font-feature-settings:var(--framer-font-open-type-features,initial);font-feature-settings:var(--framer-font-open-type-features,initial);font-variation-settings:var(--framer-font-variation-axes-preview,var(--framer-font-variation-axes,normal));text-wrap:var(--framer-text-wrap-override,var(--framer-text-wrap))}
+.framer-x427C.framer-xkumya,.framer-x427C .framer-xkumya{display:block}
+.framer-x427C.framer-1b34cvm{cursor:pointer;flex-flow:row;place-content:flex-end flex-start;align-items:flex-end;gap:10px;width:200px;height:min-content;padding:4px;text-decoration:none;display:flex;position:relative;overflow:visible}
+.framer-x427C .framer-8ax1d4{z-index:5;flex:none;width:10px;height:10px;position:absolute;top:0;left:0;overflow:visible}
+.framer-x427C .framer-15r5zsp,.framer-x427C .framer-yzxpgi,.framer-x427C .framer-1mavfjv,.framer-x427C .framer-nr8k7h{width:10px;height:10px;position:absolute;top:0;left:0}
+.framer-x427C .framer-h6oz0b{z-index:5;flex:none;width:10px;height:10px;position:absolute;bottom:0;left:0;overflow:visible}
+.framer-x427C .framer-17fzfqd{height:min-content;overflow:var(--overflow-clip-fallback,clip);flex-flow:column;flex:1 0 0;place-content:center;align-items:center;gap:10px;width:1px;padding:14px 24px;display:flex;position:relative}
+.framer-x427C .framer-1nh44ou{flex-flow:column;flex:none;place-content:center;align-items:center;gap:10px;width:100%;height:15px;padding:0;display:flex;position:relative;overflow:hidden}
+.framer-x427C .framer-qnt49f{flex:none;width:62px;height:15px;position:relative;overflow:visible}
+.framer-x427C .framer-ekeov5,.framer-x427C .framer-gnyai6{white-space:pre;flex:none;width:auto;height:auto;position:relative}
+.framer-x427C .framer-zqer2b{z-index:5;flex:none;width:10px;height:10px;position:absolute;bottom:0;right:0;overflow:visible}
+.framer-x427C .framer-mug2t2{z-index:5;flex:none;width:10px;height:10px;position:absolute;top:0;right:0;overflow:visible}
+.framer-x427C.framer-v-sybiaw.framer-1b34cvm,.framer-x427C.framer-v-sybiaw .framer-1nh44ou{width:min-content}
+.framer-x427C.framer-v-sybiaw .framer-17fzfqd{flex:none;width:min-content;padding:12px 20px}
+.framer-x427C.framer-v-1b34cvm.hover .framer-8ax1d4,.framer-x427C.framer-v-v3ysme.hover .framer-8ax1d4,.framer-x427C.framer-v-sybiaw.hover .framer-8ax1d4{top:4px;left:4px}
+.framer-x427C.framer-v-1b34cvm.hover .framer-h6oz0b,.framer-x427C.framer-v-v3ysme.hover .framer-h6oz0b,.framer-x427C.framer-v-sybiaw.hover .framer-h6oz0b{bottom:4px;left:4px}
+.framer-x427C.framer-v-1b34cvm.hover .framer-qnt49f,.framer-x427C.framer-v-v3ysme.hover .framer-qnt49f,.framer-x427C.framer-v-sybiaw.hover .framer-qnt49f{order:2}
+.framer-x427C.framer-v-1b34cvm.hover .framer-ekeov5,.framer-x427C.framer-v-v3ysme.hover .framer-ekeov5,.framer-x427C.framer-v-sybiaw.hover .framer-ekeov5{order:0}
+.framer-x427C.framer-v-1b34cvm.hover .framer-gnyai6,.framer-x427C.framer-v-v3ysme.hover .framer-gnyai6,.framer-x427C.framer-v-sybiaw.hover .framer-gnyai6{order:1}
+.framer-x427C.framer-v-1b34cvm.hover .framer-zqer2b{bottom:4px;right:4px}
+.framer-x427C.framer-v-1b34cvm.hover .framer-mug2t2,.framer-x427C.framer-v-v3ysme.hover .framer-mug2t2,.framer-x427C.framer-v-sybiaw.hover .framer-mug2t2{top:4px;right:4px}
+.framer-x427C.framer-v-v3ysme.hover .framer-zqer2b,.framer-x427C.framer-v-sybiaw.hover .framer-zqer2b{bottom:4px;right:4px}
+.framer-x427C[data-border=true]:after,.framer-x427C [data-border=true]:after{content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0}
+.framer-C7nJD .framer-styles-preset-99egca:not(.rich-text-wrapper),.framer-C7nJD .framer-styles-preset-99egca.rich-text-wrapper p{--framer-font-family:"Geist Pixel","Geist Pixel Placeholder",sans-serif;--framer-font-open-type-features:"blwf" on,"cv09" on,"cv03" on,"cv04" on,"cv11" on;--framer-font-size:15px;--framer-font-style:normal;--framer-font-variation-axes:normal;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:100%;--framer-paragraph-spacing:20px;--framer-text-alignment:start;--framer-text-color:#111315;--framer-text-decoration:none;--framer-text-stroke-color:initial;--framer-text-stroke-width:initial;--framer-text-transform:uppercase}
+@media (max-width:1439px) and (min-width:810px){.framer-C7nJD .framer-styles-preset-99egca:not(.rich-text-wrapper),.framer-C7nJD .framer-styles-preset-99egca.rich-text-wrapper p{--framer-font-family:"Geist Pixel","Geist Pixel Placeholder",sans-serif;--framer-font-open-type-features:"blwf" on,"cv09" on,"cv03" on,"cv04" on,"cv11" on;--framer-font-size:14px;--framer-font-style:normal;--framer-font-variation-axes:normal;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:100%;--framer-paragraph-spacing:20px;--framer-text-alignment:start;--framer-text-color:#111315;--framer-text-decoration:none;--framer-text-stroke-color:initial;--framer-text-stroke-width:initial;--framer-text-transform:uppercase}}
+@media (max-width:809px) and (min-width:0){.framer-C7nJD .framer-styles-preset-99egca:not(.rich-text-wrapper),.framer-C7nJD .framer-styles-preset-99egca.rich-text-wrapper p{--framer-font-family:"Geist Pixel","Geist Pixel Placeholder",sans-serif;--framer-font-open-type-features:"blwf" on,"cv09" on,"cv03" on,"cv04" on,"cv11" on;--framer-font-size:14px;--framer-font-style:normal;--framer-font-variation-axes:normal;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:100%;--framer-paragraph-spacing:20px;--framer-text-alignment:start;--framer-text-color:#111315;--framer-text-decoration:none;--framer-text-stroke-color:initial;--framer-text-stroke-width:initial;--framer-text-transform:uppercase}}
+
+/* Integration adapters. Donor dimensions/order/path geometry are retained.
+   Variables only map the donor palette to the host brand. Cyrillic falls back to
+   the donor's own Geist Mono: Geist Pixel's original font has no Cyrillic. */
+[data-axiom-variant] {
+  --token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25: var(--axiom-ink, #111315);
+  --token-4bca0573-86e0-464f-9415-c584725e492e: var(--axiom-paper, #f2f3f0);
+  --token-0717d515-91e4-40bc-9ee3-2e9c2f7acaea: var(--axiom-bracket, #a3a3a3);
+  border: 0; border-radius: 0; background: transparent; box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+[data-axiom-variant] * { box-sizing: border-box; }
+[data-axiom-variant].framer-1b34cvm { width: var(--axiom-button-width, 200px); }
+[data-axiom-variant="primary-small"].framer-1b34cvm { width: min-content; }
+[data-axiom-variant] .framer-text {
+  --framer-font-family: "Geist Pixel", "Geist Mono", monospace !important;
+  margin: 0; padding: 0; text-wrap: nowrap; font-synthesis: none;
+}
+[data-axiom-variant][data-axiom-script="cyrillic"] .framer-text {
+  /* Geist Pixel has no Cyrillic. Use one face for the entire Russian label,
+     including spaces and punctuation, to match the navigation's Geist Mono. */
+  --framer-font-family: "Geist Mono", monospace !important;
+  --framer-font-weight: 500;
+}
+/* Required global rule from Framer's renderer, omitted in the first extraction:
+   .svgContainer svg { display: block }. Inline SVG introduces a text-baseline
+   offset; rotating its container sends that offset in four different directions. */
+[data-axiom-variant] .svgContainer,
+[data-axiom-frame] .svgContainer { line-height:0; }
+[data-axiom-variant] .svgContainer svg,
+[data-axiom-frame] .svgContainer svg { display:block; width:100%; height:100%; }
+[data-axiom-variant] .framer-17fzfqd { background-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25); }
+[data-axiom-variant="secondary-large"] .framer-17fzfqd { background-color: var(--token-4bca0573-86e0-464f-9415-c584725e492e); }
+[data-axiom-variant="secondary-large"] { backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); }
+[data-axiom-variant]:focus-visible { outline: 2px solid var(--axiom-focus, #076dac); outline-offset: 5px; }
+.axiom-nav-type { font-family: "Geist Mono", monospace; font-weight: 500; font-size: 14px; letter-spacing: .03em; line-height: 1.4; text-transform: uppercase; }
+html.lenis, html.lenis body { height: auto; }
+html.lenis { scroll-behavior: auto !important; }
+.lenis:not(.lenis-autoToggle).lenis-stopped { overflow: clip; }
+.lenis [data-lenis-prevent],.lenis [data-lenis-prevent-wheel],.lenis [data-lenis-prevent-touch],.lenis [data-lenis-prevent-vertical],.lenis [data-lenis-prevent-horizontal] { overscroll-behavior: contain; }
+.lenis.lenis-smooth iframe { pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } }
+
+/* Axiom corner treatment for existing image links. Host owns all dimensions,
+   padding and contents. This is the secondary corner geometry, without Button
+   layout classes, fill, rounded containers, arrows or text replacement. */
+[data-axiom-frame] {
+  --token-0717d515-91e4-40bc-9ee3-2e9c2f7acaea: var(--axiom-bracket, #a3a3a3);
+  position: relative;
+}
+[data-axiom-frame] > .framer-8ax1d4,
+[data-axiom-frame] > .framer-h6oz0b,
+[data-axiom-frame] > .framer-zqer2b,
+[data-axiom-frame] > .framer-mug2t2 { width:10px; height:10px; position:absolute; overflow:visible; z-index:5; pointer-events:none; }
+[data-axiom-frame] > .framer-8ax1d4 { top:0; left:0; }
+[data-axiom-frame] > .framer-h6oz0b { bottom:0; left:0; }
+[data-axiom-frame] > .framer-zqer2b { bottom:0; right:0; }
+[data-axiom-frame] > .framer-mug2t2 { top:0; right:0; }
+[data-axiom-frame] .framer-15r5zsp,
+[data-axiom-frame] .framer-yzxpgi,
+[data-axiom-frame] .framer-1mavfjv,
+[data-axiom-frame] .framer-nr8k7h { width:10px; height:10px; position:absolute; top:0; left:0; }
+[data-axiom-frame].hover > .framer-8ax1d4 { top:4px; left:4px; }
+[data-axiom-frame].hover > .framer-h6oz0b { bottom:4px; left:4px; }
+[data-axiom-frame].hover > .framer-zqer2b { bottom:4px; right:4px; }
+[data-axiom-frame].hover > .framer-mug2t2 { top:4px; right:4px; }
+[data-axiom-frame]:focus-visible { outline:2px solid var(--axiom-focus,#076dac); outline-offset:5px; }

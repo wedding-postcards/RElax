@@ -1,0 +1,150 @@
+/* Exact Axiom source CSS — content components, not a redesigned section.
+ * Source: axiom-{components,shared}-source.mjs saved from the supplied Axiom HTML.
+ * This file is NOT linked to the live page by this extraction task.
+ * Components: Corner; Steps Card (Mobile & Tablet); Outcome Card; Content Card.
+ * Keep original framer-* classes in the integration markup.
+ * axiom-donor.css supplies Framer text-variable/reset rules.
+ * Ronzino font assets are referenced by the source but are not added here.
+ * Host controls the authorized common width, brand tokens and Cyrillic font mapping.
+ */
+
+/* axiom-components-source.mjs:1, character offset 3602 */
+.framer-OGQMw.framer-1p5fafr, .framer-OGQMw .framer-1p5fafr { display: block; }
+
+/* axiom-components-source.mjs:1, character offset 3684 */
+.framer-OGQMw.framer-1lw85dz { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; height: 493px; justify-content: space-between; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1280px; }
+
+/* axiom-components-source.mjs:1, character offset 3964 */
+.framer-OGQMw .framer-qv9hvi, .framer-OGQMw .framer-10bkii2 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }
+
+/* axiom-components-source.mjs:1, character offset 4288 */
+.framer-OGQMw .framer-6gthjy, .framer-OGQMw .framer-y21of3, .framer-OGQMw .framer-tiykso, .framer-OGQMw .framer-1gu32zb { aspect-ratio: 1 / 1; flex: none; height: auto; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 10px; }
+
+/* axiom-components-source.mjs:1, character offset 4541 */
+.framer-OGQMw.framer-v-1r8znfn .framer-qv9hvi, .framer-OGQMw.framer-v-1wm24wq .framer-10bkii2 { gap: 10px; justify-content: flex-start; }
+
+/* axiom-components-source.mjs:1, character offset 4681 */
+.framer-OGQMw.framer-v-1r8znfn .framer-10bkii2, .framer-OGQMw.framer-v-1wm24wq .framer-qv9hvi { gap: 10px; justify-content: flex-end; }
+
+/* axiom-components-source.mjs:1, character offset 4819 */
+.framer-OGQMw[data-border="true"]::after, .framer-OGQMw [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }
+
+/* axiom-components-source.mjs:1, character offset 30523 */
+.framer-SIrz3 .framer-styles-preset-4r8z53:not(.rich-text-wrapper), .framer-SIrz3 .framer-styles-preset-4r8z53.rich-text-wrapper p { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-letter-spacing: 0em; --framer-line-height: 150%; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-background-corner-shape: superellipse(1.01); --framer-text-color: var(--token-2207cb6c-8003-4ca1-897c-6440c33cd1e0, #454545); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; }
+
+/* axiom-components-source.mjs:1, character offset 31367 */
+@media (max-width: 1439px) and (min-width: 810px) { .framer-SIrz3 .framer-styles-preset-4r8z53:not(.rich-text-wrapper), .framer-SIrz3 .framer-styles-preset-4r8z53.rich-text-wrapper p { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-letter-spacing: 0em; --framer-line-height: 150%; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-background-corner-shape: superellipse(1.01); --framer-text-color: var(--token-2207cb6c-8003-4ca1-897c-6440c33cd1e0, #454545); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-components-source.mjs:1, character offset 32265 */
+@media (max-width: 809px) and (min-width: 0px) { .framer-SIrz3 .framer-styles-preset-4r8z53:not(.rich-text-wrapper), .framer-SIrz3 .framer-styles-preset-4r8z53.rich-text-wrapper p { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-letter-spacing: 0em; --framer-line-height: 155%; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-background-corner-shape: superellipse(1.01); --framer-text-color: var(--token-2207cb6c-8003-4ca1-897c-6440c33cd1e0, #454545); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-components-source.mjs:1, character offset 38143 */
+.framer-e6WJ4 .framer-styles-preset-1mw7hrw:not(.rich-text-wrapper), .framer-e6WJ4 .framer-styles-preset-1mw7hrw.rich-text-wrapper h2 { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 40px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-letter-spacing: -0.02em; --framer-line-height: 110%; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: #111315; --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; }
+
+/* axiom-components-source.mjs:1, character offset 38884 */
+@media (max-width: 1439px) and (min-width: 810px) { .framer-e6WJ4 .framer-styles-preset-1mw7hrw:not(.rich-text-wrapper), .framer-e6WJ4 .framer-styles-preset-1mw7hrw.rich-text-wrapper h2 { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 34px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-letter-spacing: -0.2px; --framer-line-height: 120%; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: #111315; --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-components-source.mjs:1, character offset 39678 */
+@media (max-width: 809px) and (min-width: 0px) { .framer-e6WJ4 .framer-styles-preset-1mw7hrw:not(.rich-text-wrapper), .framer-e6WJ4 .framer-styles-preset-1mw7hrw.rich-text-wrapper h2 { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 30px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 122%; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: #111315; --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-components-source.mjs:1, character offset 40758 */
+.framer-rPzQj .framer-styles-preset-1h9cjy7:not(.rich-text-wrapper), .framer-rPzQj .framer-styles-preset-1h9cjy7.rich-text-wrapper p { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-letter-spacing: 0em; --framer-line-height: 150%; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; }
+
+/* axiom-components-source.mjs:1, character offset 41544 */
+@media (max-width: 1439px) and (min-width: 810px) { .framer-rPzQj .framer-styles-preset-1h9cjy7:not(.rich-text-wrapper), .framer-rPzQj .framer-styles-preset-1h9cjy7.rich-text-wrapper p { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 18px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-letter-spacing: 0em; --framer-line-height: 150%; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-components-source.mjs:1, character offset 42384 */
+@media (max-width: 809px) and (min-width: 0px) { .framer-rPzQj .framer-styles-preset-1h9cjy7:not(.rich-text-wrapper), .framer-rPzQj .framer-styles-preset-1h9cjy7.rich-text-wrapper p { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-letter-spacing: 0em; --framer-line-height: 155%; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-shared-source.mjs:1, character offset 12777 */
+.framer-t6duK.framer-zt6jb6, .framer-t6duK .framer-zt6jb6 { display: block; }
+
+/* axiom-shared-source.mjs:1, character offset 12857 */
+.framer-t6duK.framer-k1tztr { align-content: flex-end; align-items: flex-end; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 245px; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 4px; position: relative; width: 270px; }
+
+/* axiom-shared-source.mjs:1, character offset 13144 */
+.framer-t6duK .framer-hywwfg { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 100%; justify-content: flex-end; overflow: visible; padding: 24px; position: relative; width: 1px; }
+
+/* axiom-shared-source.mjs:1, character offset 13422 */
+.framer-t6duK .framer-1m0opy4-container { flex: none; height: 100%; left: calc(50.00000000000002% - 100% / 2); position: absolute; top: calc(50.144092219020195% - 100% / 2); width: 100%; z-index: 1; }
+
+/* axiom-shared-source.mjs:1, character offset 13625 */
+.framer-t6duK .framer-1nrcmcw { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }
+
+/* axiom-shared-source.mjs:1, character offset 13934 */
+.framer-t6duK .framer-1a6dl8i-container { flex: none; height: auto; position: relative; width: auto; }
+
+/* axiom-shared-source.mjs:1, character offset 14039 */
+.framer-t6duK .framer-fl1z3f { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }
+
+/* axiom-shared-source.mjs:1, character offset 14209 */
+.framer-t6duK[data-border="true"]::after, .framer-t6duK [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }
+
+/* axiom-shared-source.mjs:1, character offset 38420 */
+.framer-iXqyu .framer-styles-preset-1hc54eu:not(.rich-text-wrapper), .framer-iXqyu .framer-styles-preset-1hc54eu.rich-text-wrapper h3 { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 24px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 122%; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; }
+
+/* axiom-shared-source.mjs:1, character offset 39208 */
+@media (max-width: 1439px) and (min-width: 810px) { .framer-iXqyu .framer-styles-preset-1hc54eu:not(.rich-text-wrapper), .framer-iXqyu .framer-styles-preset-1hc54eu.rich-text-wrapper h3 { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 22px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 124%; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-shared-source.mjs:1, character offset 40050 */
+@media (max-width: 809px) and (min-width: 0px) { .framer-iXqyu .framer-styles-preset-1hc54eu:not(.rich-text-wrapper), .framer-iXqyu .framer-styles-preset-1hc54eu.rich-text-wrapper h3 { --framer-font-family: "Ronzino", "Ronzino Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 126%; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }
+
+/* axiom-shared-source.mjs:1, character offset 45740 */
+.framer-tG1Ge.framer-1af8gqx, .framer-tG1Ge .framer-1af8gqx { display: block; }
+
+/* axiom-shared-source.mjs:1, character offset 45822 */
+.framer-tG1Ge.framer-ffd1rx { align-content: flex-start; align-items: flex-start; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 286px; }
+
+/* axiom-shared-source.mjs:1, character offset 46118 */
+.framer-tG1Ge .framer-kszpr6 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }
+
+/* axiom-shared-source.mjs:1, character offset 46390 */
+.framer-tG1Ge .framer-o5ohtk-container { flex: none; height: 100%; left: calc(50.00000000000002% - 100% / 2); position: absolute; top: calc(49.35064935064937% - 100% / 2); width: 100%; z-index: 1; }
+
+/* axiom-shared-source.mjs:1, character offset 46591 */
+.framer-tG1Ge .framer-1k6glcz { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }
+
+/* axiom-shared-source.mjs:1, character offset 46892 */
+.framer-tG1Ge .framer-1tksgii, .framer-tG1Ge .framer-1owa3w4 { flex: none; height: auto; position: relative; white-space: pre; width: auto; }
+
+/* axiom-shared-source.mjs:1, character offset 47036 */
+.framer-tG1Ge .framer-anermw { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }
+
+/* axiom-shared-source.mjs:1, character offset 47200 */
+.framer-tG1Ge.framer-v-215dqp.framer-ffd1rx { padding: 4px; }
+
+/* axiom-shared-source.mjs:1, character offset 47264 */
+.framer-tG1Ge.framer-v-215dqp .framer-kszpr6 { gap: 16px; padding: 24px; }
+
+/* axiom-shared-source.mjs:1, character offset 47353 */
+.framer-tG1Ge[data-border="true"]::after, .framer-tG1Ge [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }
+
+/* axiom-shared-source.mjs:1, character offset 139454 */
+.framer-NtaWQ.framer-ge8jo, .framer-NtaWQ .framer-ge8jo { display: block; }
+
+/* axiom-shared-source.mjs:1, character offset 139532 */
+.framer-NtaWQ.framer-15dxdnf { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 640px; }
+
+/* axiom-shared-source.mjs:1, character offset 139790 */
+.framer-NtaWQ .framer-1e5lnef-container { flex: none; height: 100%; left: calc(50.00000000000002% - 100% / 2); position: absolute; top: calc(50.00000000000002% - 100% / 2); width: 100%; z-index: 1; }
+
+/* axiom-shared-source.mjs:1, character offset 139992 */
+.framer-NtaWQ .framer-1yj9ad8 { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 24px; position: relative; width: 1px; }
+
+/* axiom-shared-source.mjs:1, character offset 140276 */
+.framer-NtaWQ .framer-8xu1a3 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }
+
+/* axiom-shared-source.mjs:1, character offset 140569 */
+.framer-NtaWQ .framer-16c73qu-container { flex: none; height: auto; position: relative; width: auto; }
+
+/* axiom-shared-source.mjs:1, character offset 140674 */
+.framer-NtaWQ .framer-110ocr1 { aspect-ratio: 1 / 1; flex: none; height: auto; position: relative; width: 20px; }
+
+/* axiom-shared-source.mjs:1, character offset 140790 */
+.framer-NtaWQ .framer-uwcypp { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }
+
+/* axiom-shared-source.mjs:1, character offset 141098 */
+.framer-NtaWQ .framer-a95qp1, .framer-NtaWQ .framer-1ba7iz4 { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }
+
+/* axiom-shared-source.mjs:1, character offset 141305 */
+.framer-NtaWQ[data-border="true"]::after, .framer-NtaWQ [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }

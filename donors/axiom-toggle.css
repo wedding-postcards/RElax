@@ -1,0 +1,249 @@
+/* AxiomOps — Price Toggle, extracted from the approved local reference.
+ * Source: axiomops_framer_website.html;
+ * runtime/component: donors/axiom-shared-source.mjs (Qn / Price Toggle);
+ * typography: donors/axiom-components-source.mjs (ke / framer-ufLtz).
+ * Original variants: Monthly = kBXQ07WIK / framer-v-fcksah;
+ *                    Yearly  = uOCOZ6V3S / framer-v-1mrk6p0.
+ * The next ten rules are unmodified source strings, only line-broken.
+ */
+.framer-23iwK.framer-17gpdfj, .framer-23iwK .framer-17gpdfj {
+  display: block;
+  }
+
+.framer-23iwK.framer-fcksah {
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4px;
+  height: 51px;
+  justify-content: center;
+  overflow: visible;
+  padding: 4px;
+  position: relative;
+  width: 195px;
+  }
+
+.framer-23iwK .framer-1g960h2 {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
+  min-width: 84px;
+  overflow: visible;
+  padding: 8px 12px 8px 12px;
+  position: relative;
+  width: 1px;
+  }
+
+.framer-23iwK .framer-2doinl, .framer-23iwK .framer-t9zs2i {
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre;
+  width: auto;
+  }
+
+.framer-23iwK .framer-11abz3p {
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
+  min-width: 84px;
+  overflow: visible;
+  padding: 8px 12px 8px 12px;
+  position: relative;
+  width: 1px;
+  }
+
+.framer-23iwK.framer-v-1mrk6p0 .framer-1g960h2 {
+  cursor: pointer;
+  }
+
+.framer-23iwK[data-border="true"]::after, .framer-23iwK [data-border="true"]::after {
+  content: "";
+  border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
+  border-color: var(--border-color, none);
+  border-style: var(--border-style, none);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  border-radius: inherit;
+  corner-shape: inherit;
+  pointer-events: none;
+  }
+
+.framer-ufLtz .framer-styles-preset-1ry8lux:not(.rich-text-wrapper), .framer-ufLtz .framer-styles-preset-1ry8lux.rich-text-wrapper p {
+  --framer-font-family: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-bold: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-bold-italic: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-italic: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on;
+  --framer-font-size: 14px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 500;
+  --framer-letter-spacing: 0.02em;
+  --framer-line-height: 150%;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: #111315;
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: capitalize;
+  }
+
+@media (max-width: 1439px) and (min-width: 810px) {
+  .framer-ufLtz .framer-styles-preset-1ry8lux:not(.rich-text-wrapper), .framer-ufLtz .framer-styles-preset-1ry8lux.rich-text-wrapper p {
+  --framer-font-family: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-bold: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-bold-italic: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-italic: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on;
+  --framer-font-size: 14px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 500;
+  --framer-letter-spacing: 0.02em;
+  --framer-line-height: 150%;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: #111315;
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: capitalize;
+  } }
+
+@media (max-width: 809px) and (min-width: 0px) {
+  .framer-ufLtz .framer-styles-preset-1ry8lux:not(.rich-text-wrapper), .framer-ufLtz .framer-styles-preset-1ry8lux.rich-text-wrapper p {
+  --framer-font-family: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-bold: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-bold-italic: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-family-italic: "Geist Mono", "Geist Mono Placeholder", monospace;
+  --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on;
+  --framer-font-size: 13px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 500;
+  --framer-letter-spacing: 0.02em;
+  --framer-line-height: 155%;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: #111315;
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: capitalize;
+  } }
+
+/* Native HTML integration; original layout and variant classes are retained.
+ * Add framer-ufLtz to the root, use native buttons for the two children,
+ * and place framer-styles-preset-1ry8lux inside the original label wrappers.
+ * Original Framer page reset used border-box. */
+.framer-23iwK,
+.framer-23iwK * {
+  box-sizing: border-box;
+}
+.framer-23iwK.framer-fcksah {
+  --border-top-width: 1px;
+  --border-right-width: 1px;
+  --border-bottom-width: 1px;
+  --border-left-width: 1px;
+  --border-style: solid;
+  --border-color: var(--token-a9835ac4-df83-403f-b9b8-54526398d0e0, #d9d9d9);
+  width: var(--axiom-toggle-width, 195px);
+  border-radius: 0;
+}
+.framer-23iwK button.framer-1g960h2,
+.framer-23iwK button.framer-11abz3p {
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
+.framer-23iwK .framer-styles-preset-1ry8lux {
+  margin: 0;
+  font-family: var(--framer-font-family);
+  font-size: var(--framer-font-size);
+  font-weight: var(--framer-font-weight);
+  font-style: var(--framer-font-style);
+  font-feature-settings: var(--framer-font-open-type-features);
+  line-height: var(--framer-line-height);
+  letter-spacing: var(--framer-letter-spacing);
+  text-align: var(--framer-text-alignment);
+  text-transform: var(--framer-text-transform);
+  color: inherit;
+}
+
+/* Static representations of the original Motion variants.
+ * Page-token defaults below match the saved original HTML, including the
+ * intentional difference between inactive Monthly and inactive Yearly.
+ * Color tokens can be locally overridden for the dark studio scene. */
+.framer-23iwK .framer-1g960h2 {
+  background-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315);
+  color: var(--token-4bca0573-86e0-464f-9415-c584725e492e, #f0f0f0);
+}
+.framer-23iwK .framer-11abz3p {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--token-2207cb6c-8003-4ca1-897c-6440c33cd1e0, #8c8c8c);
+}
+.framer-23iwK.framer-v-1mrk6p0 .framer-1g960h2 {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--token-f231d4c4-f708-4c9f-9a54-e5520203ca40, #6b7075);
+}
+.framer-23iwK.framer-v-1mrk6p0 .framer-11abz3p {
+  background-color: var(--token-0c7bda5a-d5f8-4857-8dfa-bc6f6f03eb25, #111315);
+  color: var(--token-bc0ac9db-ff35-4711-8dc8-77dc1f72f5b3, #e5e5e5);
+}
+
+/* Native semantics adapter, not a donor decoration. */
+.framer-23iwK button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -3px;
+}
+
+/* Motion is NOT replaced by an invented CSS ease.
+ * Source Kn = { bounce: .2, delay: 0, duration: .4, type: 'spring' }.
+ * Source animates backgroundColor on each fixed segment and text color on
+ * each fixed label; there is no translating pill, rolling text or hover
+ * transform in Price Toggle. Runtime integration must use these targets
+ * and the donor spring. This stylesheet only supplies geometry and states.
+ */
